@@ -79,7 +79,7 @@ Available options for `createPersistedState()`
 
 ```javascript
 createPersistedState({
-  whitelist: ["whitelistedMutation", "anotherWhitelistedMutation"],
+  whitelist: ["whitelistedAction", "anotherWhitelistedAction"],
 
   // or
 
@@ -89,7 +89,7 @@ createPersistedState({
 
   // or
 
-  blacklist: ["ignoredMutation", "anotherIgnoredMutation"],
+  blacklist: ["ignoredAction", "anotherIgnoredAction"],
 
   // or
 
